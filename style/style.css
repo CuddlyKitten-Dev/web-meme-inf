@@ -1,0 +1,224 @@
+:root{
+  --cor-fundo-pri: #fff;
+  --cor-fundo-sec: #c0c0c0;
+  --cor-texto: #000;
+  --cor-fundo-ter: #e0e0e0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: var(--cor-fundo-sec);
+  color: var(--cor-texto);
+  margin: 0;
+  padding: 0;
+}
+
+.retro-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  border: 3px double var(--cor-texto);
+  background-color: var(--cor-fundo-pri);
+}
+
+.retro-header {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px outset #000;
+  margin-bottom: 20px;
+}
+
+.retro-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: var(--cor-fundo-ter);
+  padding: 10px;
+  border: 2px inset var(--cor-texto);
+}
+
+.retro-form input {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.retro-form button {
+  background-color: #00ff00;
+  border: 2px outset #000;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.retro-resultado {
+  padding: 10px;
+  border: 2px outset #000;
+  background-color: #f5f5f5;
+  display: none;
+}
+
+.retro-resultado h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.retro-resultado p {
+  white-space: pre-line;
+  margin: 10px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.gallery img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  cursor: zoom-in;
+  border: 2px solid #000;
+}
+
+/* Modal */
+#imagem-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+#imagem-modal img {
+  max-width: 90%;
+  max-height: 80%;
+  border: 2px solid white;
+}
+
+#imagem-indice {
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#fechar-modal {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: red;
+  border: 2px outset white;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Footer retrô */
+.retro-footer {
+  margin-top: 30px;
+  text-align: center;
+  border-top: 2px dashed #000;
+  padding-top: 10px;
+  font-size: 14px;
+}
+/* Área de ações (botões e moedas) */
+.retro-acoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cor-fundo-ter);
+  padding: 10px;
+  border: 2px inset black;
+  margin-bottom: 20px;
+}
+
+.retro-acoes button {
+  padding: 6px 12px;
+  background-color: #00ff00;
+  border: 2px outset black;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+
+#moedas-display {
+  font-weight: bold;
+  font-family: monospace;
+}
+
+/* Seção da Loja */
+.retro-loja,
+.retro-inventario {
+  background-color: var(--cor-fundo-pri);
+  border: 2px outset black;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.retro-loja h2,
+.retro-inventario h2 {
+  border-bottom: 1px dashed black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Itens da loja e inventário */
+.lista-gadgets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gadget-item {
+  width: 152px;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: var(--cor-fundo-sec);
+  font-size: 14px;
+}
+
+.gadget-item img {
+  width: 128px;
+  height: 128px;
+  object-fit: fill;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.gadget-item h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.gadget-item p {
+  margin: 2px 0;
+  font-size: 13px;
+}
+
+.gadget-item button {
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+  background-color: dodgerblue;
+  color: white;
+  border: 2px outset black;
+  cursor: pointer;
+}
+#resetar-jogo{
+  padding: 5px;
+  background: red;
+  cursor: pointer;
+  border: 2px outset black;
+}

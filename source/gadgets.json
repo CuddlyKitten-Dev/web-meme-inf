@@ -1,0 +1,56 @@
+[
+  {
+    "titulo": "Enegetico do Hormann",
+    "descricao": "Energetico que te da força para jogar mais uma partida de CS.",
+    "valor": 12,
+    "imagem": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/89527-energetico-baly-morango-e-pessego-lata-473ml.20220719165644.1658260604.jpg"
+  },
+  {
+    "titulo": "Camisa INF11(2024)",
+    "descricao": "Peça rara em se encontrar em um corpo humano, apenas como pano de chão.",
+    "valor":-10,
+    "imagem": ""
+  },
+  {
+    "titulo":"Chapeu do rubira",
+    "descricao":"Chapeu protege de uma maça cair na sua cabeça",
+    "valor": 47,
+    "imagem":""
+  },
+  {
+    "titulo":"Pururu Snack",
+    "descricao":"Ele te deixa sem fome até dia 30 de Fevereiro",
+    "valor":12,
+    "imagem":""
+  },
+  {
+    "titulo":"Apagador de Quadro",
+    "descricao":"Ninguem nunca sabe onde ele está.",
+    "valor":59,
+    "imagem":""
+  },
+  {
+    "titulo":"Mochila do Minecraft",
+    "descricao":"Contem coisas que você menos imagina dentro, como uma boca de fogão da Consul.",
+    "valor":140,
+    "imagem":""
+  },
+  {
+    "titulo": "Nariz do milke",
+    "descricao":"um grande objeto de prazerez sexuais",
+    "valor":1,
+    "imagem":""
+  },
+  {
+    "titulo":"Cafe 2L",
+    "descricao":"Item essencial para estudos do pessoal",
+    "valor":23,
+    "imagem":""
+  },
+  {
+    "titulo":"Camisa do Kaua",
+    "descricao":"Contem um espaço para colocar 2 Bossorocas dentro",
+    "valor":30,
+    "imagem":""
+  }
+]

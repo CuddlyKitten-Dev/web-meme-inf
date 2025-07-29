@@ -1,0 +1,115 @@
+[
+  {
+    "titulo": "Filipin",
+    "autor":"Alexandre",
+    "valor":24,
+    "descricao": "Filipin, o Pássaro Amarelo é um personagem da série Angry Birds criado por Rovio Entertainment. Filipin é um Canário. Ele foi introduzido pela primeira vez em 2009 com o lançamento original do jogo. Ele é um canário amarelo com habilidade de acelerar no ar.",
+    "imagens":["imgs/Filipin/img1.jpg"]
+  },
+  {
+    "titulo":"Hormann",
+    "autor":"Eduardo Milke",
+    "valor": 50,
+    "descricao": "Hormann, futuro mendigo da turma, tem grande vicío em energetico,carros e mulheres com surpresinhas como ja sitado feijoada boa é com linguiça, foi introduzido na atulização de 2009 sendo talvez um erro dos desenvolvedores ou um virus que não pode ser removido.Sua presença constante levanta a dúvida se ele é um bug visual ou um NPC fixo no mapa da INF21. Rumores dizem que, se você disser 'feijoada' três vezes em frente a um notebook(com um procesador acima do I3) da sala C3, ele aparece oferecendo um litro de energetico e uma piada ofendendo todos os valores da ONU e os 200 paises existentes.(obs: nem precisa fazer esse processo para essa ultima)",
+    "imagens":["imgs/Hormann/img1.png","imgs/Hormann/img2.png", "imgs/Hormann/imgs (1).png","imgs/Hormann/img69.jpg","imgs/Hormann/img (1).png","imgs/Hormann/img (2).png"]
+  },
+  {
+    "titulo":"Eduardo ",
+    "autor":"Arthur Hormann",
+    "valor":37,
+    "descricao":"Eduardo, o desgosto da familia, me perguntar o porquê? ele cheirou a cinzas de sua bisavó sem querer com seu aaspirador de pó, mais conhecido como seu nariz, sempre quando vai passar por alguma porta, tem que se manobrar, se não tranca a nareba, cheguei perto dele esses dias e pensei que estava com embolia pulmonar, mas no final era só sua presença avassaladora. Mas no final todos nós te amamos pinoquio.",
+    "imagens":[]
+  },
+  {
+    "titulo":"Heitor",
+    "autor":"Alexandre",
+    "valor":45,
+    "descricao":"Heitor, Nascido em 2008, tem um QI de 2009, capaz de ensinar o dicionario de portugues novas palavras, ele quem criou a matematica em conjunto do preguiçoso Pitagoras e Professor Vilso. Heitor tambem tem uma rotina básica de iniciar seus estudos de cinco materias por minuto as 3:00 AM e terminar as 11:59 PM, tão simples que qualquer um consegue, é so querer.",
+    "imagens":[]
+  }
+  ,
+  {
+    "titulo":"Kaua",
+    "valor":64,
+    "autor":"Eduardo Milke",
+    "descricao":"Motomoto,baleia,tomotomo,porpeta, imenso, pelota ou barril, tendo vários nome, sendo conhecido pela sua grande atração gravitacional e distorção do espaço-tempo, sendo muito difícil de escapar de sua orbita, comendo galaxias inteiras de lanche da tarde, precisando tirar foto de satelite, com suas incriveis 0 habilidades no CS sendo carregado pelo seu time, tiramos uma foto que talvez não carregue pois pesando seu incriveis 9999Petabytes., o mais top de todos   ",
+    "imagens":["imgs/Kaua/img1.png","imgs/Kaua/imgs (2).png",
+  "imgs/Kaua/imgs (3).png"]
+  },
+  {
+    "titulo":"Alexandre",
+    "autor":"",
+    "valor": 1,
+    "descricao":"Programou o seu proprio nascimento, suas primeiras palavras foram: '#include<stdio.h>',tendo aos quatro anos aprendido a compilar objetos da vida real, construindo assim a sua moradia e sua parceira romantica - feita com IA. Sua rotina basica consiste em: func rotina ()->void{acordar programar return acordar;}. Tem um sistema operacional baseado em linux integrado ao seu cérebro, com 99% da sua pouca memória sendo destinada a atividades de programação." 
+  },
+  {
+    "titulo":"Prefeito",
+    "autor":"",
+    "valor":30,
+    "descricao":"Tendo o nome advindo do seu breve cargo de semiliderança no primeiro ano, aguentando muita linguiça na feijoada e muita porra calado, mas no final broxou, tomando 'impeachment'. Tem um modo de vida semelhante a um venezuelano refugiado no lab maker iffar vivendo de trocas gostosas, ele imprime seus alimentos se tornando um ser autotrófico. Semana passada foi internado no postinho de saúde após ser pego se masturbando para o blender, errei, foi o hospício, ele gosta de se intreter com objetos esféricos e cilíndricos, geralmente de uma coloração mais escura, veiudas também, tentou o método africano para aumentar a sua pomba, mas acabou desenvolvendo câncer de próstata.  Obs: não tem doutorado.  "
+
+  },{
+    "titulo":"Bernardo",
+    "autor":"Alexandre",
+    "valor":46,
+    "descricao":"Bernardo, ou Clevesor, ou greivston ou yellowstone, ou polaco, ou faísca, digo Clevstone (um novo tipo de pedra do Minecraft), conhecido tambem por Bzinho, é um crack jogador de Golf Aquatico, e Fut-Basquete, ele tem uma velocidade de 1 m/p Ano, Mora em uma cidade a 200 KM de Santo Angelo, conhecida por seu nome Girua, adora de esportes que envolvam bolas  perfeitamento circulares e escuras de preferencia,e segundo o E.N.O(Estadio Nacional de Orgia) é desnutrido, magro, feio e namora uma gostosa da AMD,digo ADM.",
+    "imagens":[]
+  },
+  {
+    "titulo":"Bagage",
+    "autor":"Alexandre",
+    "valor":-10,
+    "descricao":"Bagege, um ser historicamente extinto, tem um som que tenta imitar uma risada humana, mas falha no processo, tinha uma convivencia boa entre seu irmões, mas vivia em becos escuros, por que escuros? não faço a minima ideia.",
+    "imagens":["imgs/Bagege/imgs (4).png"]
+  },
+  {
+    "titulo":"Bruna",
+    "autor":"Kaua",
+    "valor":23,
+    "descricao":"uma pessoa que adora uma marca de relógio ai, pastel de frango e química, alemoa, a tia bruna que não avisa pra agendarem o lanche, que só dorme durante as aulas, gurizinho, 'libera nós pro lanche profe', líder(ex) e caloteira. Existe uma lenda que diz que seus lugares preferidos no IF são a sala de artes e o prédio administrativo.",
+    "imagens":["imgs/Bruna/img1.jpg"]
+  },
+  {
+    "titulo":"Gurizinho",
+    "autor":"Alexandre",
+    "valor":20,
+    "descricao":"O termo Gurizinho se refere algo muito mais do que realmente parece, tem uma forte ligação quando alguem faz algo errado e você quer chamar atenção de forma discreta."
+  },
+  {
+    "titulo":"Gadeia",
+    "autor":"Kaua",
+    "valor":69,
+    "descricao":"joao gabriel, o homem mais perebento de Santo Ângelo, tem mais dst doq o milke de nareba, sempre tem um brueberry nno bolso, ou de nanana, gosta de homens mas esconde por medo de ser julgado, o grande e atual vici lider"
+  },
+  {
+    "titulo":"Davih",
+    "autor":"Eduardo Milke",
+    "valor":15,
+    "descricao":"Davihsolar como ja dito em seu nome sobrevive de apenas luz solar,agua e O2 sendo alergico a educação fisica ou qualquer forma de movimento, um dia ele desafiou uma planta para ver quem fica mais parado, ele ou a planta, a planta desisitu porque ficou muito tempo de pé, um dia tentou arrancar o seu coração para ver se era igual o de undertale, pelo visto não era, morando na grande cidade de Catuipe com sua imensa duas quadras de cm3 "
+  },
+  {
+    "titulo":"Gabriel",
+    "autor":"",
+    "valor":15,
+    "descricao":"Personagem não desbloqueado"
+  },
+  {
+    "titulo":"Julia",
+    "autor":"",
+    "valor":5,
+    "descricao":""
+  },
+  {
+    "titulo":"Karol",
+    "autor":"Bruna Marciano",
+    "valor":71,
+    "descricao":"A mais gótica da sala, sempre com sua cara 'tipo Mirella', seu silêncio é pior que sua fala. A famosa Tollota, é a mãe do grupo, as vezes ameaça a tia Bruna e a preta Julia mas ama as duas. Adora os memes do veio Marcos Ribeiro, e as vezes fica de cara por q ela é a faz tudo dos trabalhos em grupo",
+    "imagens":["imgs/Karol/img1.jpg","imgs/Karol/img2.jpg"]
+  },
+  {
+    "titulo":"Gabriella Seibel",
+    "autor":"Alexandre",
+    "valor":23,
+    "descricao":"Gosta de café. . ."
+  }
+]

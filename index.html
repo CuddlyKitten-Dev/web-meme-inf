@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dicionário INF21 - Modo Retrô</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="retro-container">
+
+    <div class="retro-header" id="meu-header">
+      <h1>BIBLIOTECA DA INF21</h1>
+      <p>Tudo na mais pura zueira!!!</p>
+      <h2 id="contador">0/0</h2>
+    </div>
+
+    <!-- Botões de ações -->
+<div class="retro-acoes">
+  <button id="btn-loja">🛒 Loja</button>
+  <button id="btn-inventario">🎒 Inventário</button>
+  <!--http://localhost/inftube/index.php-->
+  <button onclick="window.location.href='http://localhost/inftube/index.php'">📼 INFtube</button>
+
+  <span id="moedas-display">💰 0 moedas</span>
+</div>
+
+<!-- Seção da Loja -->
+<div id="secao-loja" class="retro-loja" style="display: none;">
+  <h2>Loja de Acessórios</h2>
+  <div id="lista-gadgets" class="lista-gadgets"></div>
+</div>
+
+<!-- Seção do Inventário -->
+<div id="secao-inventario" class="retro-inventario" style="display: none;">
+  <h2>Seu Inventário</h2>
+  <div id="lista-inventario" class="lista-gadgets"></div>
+</div>
+
+
+    <form class="retro-form" id="busc">
+      <label for="campo-busca">Busca:</label>
+      <input type="search" id="campo-busca" placeholder="Digite o nome..." autocomplete="off">
+      <button type="submit">🔍 Buscar</button>
+    </form>
+
+    <div class="retro-resultado" id="resultado">
+      <h2>Resultado</h2>
+      <p></p>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="retro-footer">
+      <p>| © INF21 - 2025 |</p>
+      <p>Esse site contem piadas ofensivas, drogas ilicitas, etc, são apenas piadas internas, caso queira reclamar, Ligue para +55 9966-cala boca e não nós encomode</p>
+      <button id="resetar-jogo">🔄 Resetar Progresso</button>
+    </div>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="imagem-modal">
+    <button id="fechar-modal">✖</button>
+    <img src="" alt="Imagem ampliada">
+    <div id="imagem-indice">1/1</div>
+  </div>
+
+  <script src="src/script.js"></script>
+  <script src="src/cor.js"></script>
+</body>
+</html>

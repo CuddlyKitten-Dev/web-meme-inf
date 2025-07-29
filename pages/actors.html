@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Personagens - INF21</title>
+  <link rel="stylesheet" href="../style/style.css" />
+  <style>
+    main{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        min-height: 80vh;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      width: 300px;
+    }
+    li {
+      background: aliceblue;
+      color: black;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: default;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <h1 id="meu-header">Infelizes Disponíveis</h1>
+  <h2><a href="../index.html">&lArr;Voltar</a></h2>
+  </header>
+  <main>
+    <ul id="lista-personagens"></ul>
+  </main>
+
+  <script src="../src/cor.js"></script>
+  <script>
+    async function carregarPersonagens() {
+      try {
+        const response = await fetch('../source/objects.json');
+        if (!response.ok) throw new Error('Erro ao carregar o JSON');
+        const dados = await response.json();
+
+        const ul = document.getElementById('lista-personagens');
+        ul.innerHTML = '';
+
+        dados.forEach(personagem => {
+          const li = document.createElement('li');
+          li.textContent = personagem.titulo;
+          ul.appendChild(li);
+        });
+      } catch (err) {
+        document.body.innerHTML = '<p style="color:red;">Erro ao carregar personagens.</p>';
+        console.error(err);
+      }
+    }
+
+    carregarPersonagens();
+  </script>
+</body>
+</html>

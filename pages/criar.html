@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Adicionar Personagem - INF21</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <form id="form-criar" action="salvar.php">
+    <h2>Adicionar Personagem</h2>
+
+    <label>Nome:</label>
+    <input type="text" id="titulo" required>
+
+    <label>Descrição:</label>
+    <textarea id="descricao" required></textarea>
+
+    <label>Imagens (URLs separadas por vírgula):</label>
+    <input type="text" id="imagens">
+
+    <button type="submit">Salvar</button>
+
+    <a href="index.html">&lArr;VOLTAR</a>
+
+    <div id="resposta"></div>
+  </form>
+
+  <script src="criar.js"></script>
+</body>
+</html>
